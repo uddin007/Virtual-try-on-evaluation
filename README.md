@@ -13,6 +13,4 @@ To enhance the outputs' versatility and resolution, I integrated the **enhanceai
 
 The synthesis begins with a Gaussian noise vector, which progressively transitions into a coherent image through a series of denoising steps. Each step is guided by the learned representations encoded in the model and the fine-tuned weights. This process allows for precise control over attributes like pose, body proportions, and even facial expressions, making it an ideal precursor for try-on applications.
 
-Once the digital human models are generated, they can be seamlessly integrated into virtual try-on frameworks like **IDM-VTON**, where garment simulations overlay the generated avatars. The high fidelity and customizability of these base models ensure accurate alignment and visual coherence, paving the way for robust virtual fitting experiences.
-
-By combining the flexibility of the **FLUX.1-dev** model and the refined accuracy provided by the **Flux-uncensored-v2** weights, I achieved a scalable and automated pipeline capable of producing high-resolution, photorealistic models optimized for virtual try-on applications. 
+Once the digital human models are generated, they can be integrated into virtual try-on frameworks like **IDM-VTON**, where garment simulations overlay the generated avatars. 
