@@ -26,6 +26,8 @@ In this project we explored the following Vitrual Try-on models and selected IDM
 
 The original IDM-VTON article is available here https://arxiv.org/abs/2403.05139 and a summary is provided below:
 
+![idm-vton](https://github.com/user-attachments/assets/9b721fc6-344b-4ad5-8882-ac10cd79cf0c)
+
 The IDM-VTON framework addresses image-based virtual try-on by rendering a person wearing a curated garment given images of both the person and the garment. IDM-VTON introduces a cutting-edge approach to image-based virtual try-on, enabling the creation of realistic images of a person wearing curated garments while maintaining garment fidelity and visual naturalness. Unlike previous methods, which often compromise garment details for improved image quality, IDM-VTON combines the strengths of diffusion-based generative modeling with novel semantic encoding techniques to overcome these challenges. 
 
 At the core of the framework is a diffusion model enhanced by a base UNet architecture, augmented with two key modules that encode garment semantics. High-level semantic features are extracted through a visual encoder and integrated into the cross-attention layer, while low-level garment details are processed through a parallel UNet and fused into the self-attention layer. This dual-level encoding ensures both the overall alignment of the garment with the person and the preservation of intricate textures and details. Additionally, IDM-VTON incorporates detailed natural language descriptions for both garments and person images, leveraging the contextual power of text-to-image diffusion models to enhance the authenticity and personalization of the generated visuals.
