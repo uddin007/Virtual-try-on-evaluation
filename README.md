@@ -4,8 +4,8 @@ The rapid advancements in virtual try-on technology have opened new frontiers in
 <div style="display: flex; justify-content: space-around;">
   <img src="./images/generated_images/uncensored_image_hf-2.png" alt="Gen Image 1" width="48%">
   <img src="./images/generated_images/uncensored_image_hf-3.png" alt="Gen Image 2" width="48%">
-    <img src="./images/generated_images/uncensored_image_hf-4.png" alt="Gen Image 3" width="48%">
-  <img src="./images/generated_images/uncensored_image_hf-10.png" alt="Gen Image 4" width="48%">
+  <img src="./images/generated_images/uncensored_image_hf-4.png" alt="Gen Image 3" width="48%">
+  <img src="./images/generated_images/uncensored_image_hf-17.png" alt="Gen Image 4" width="48%">
 </div>
 
 I employed the **black-forest-labs/FLUX.1-dev** model in conjunction with the **enhanceaiteam/Flux-uncensored-v2** weights to generate high-quality digital models as a foundation for virtual try-on workflows. The process leverages state-of-the-art **diffusion-based generative modeling** to synthesize realistic and customizable human models tailored for subsequent garment simulations.
