@@ -43,8 +43,10 @@ We identified, the most efficient way to run this model is by using the Gradio w
   <img src="./images/try-on-images/upscaled-67.png" alt="Gen Image 2" width="48%">
   <img src="./images/garments/Fruit-of-the-Loom-Womens-Value-Tank-Top_c5104ab6-c639-4c6e-86e2-762f906e794b.96b55a3015a010a1fef0c263d15e1ee3.jpeg.webp" alt="Gen Image 3" width="48%">
   <img src="./images/try-on-images/upscaled-50.png" alt="Gen Image 4" width="48%">
-  <img src="./images/garments/1685456923000-jNZ4eT-2.jpg" alt="Gen Image 3" width="48%">
-  <img src="./images/try-on-images/upscaled-56.png" alt="Gen Image 4" width="48%">
+  <img src="./images/garments/1685456923000-jNZ4eT-2.jpg" alt="Gen Image 5" width="48%">
+  <img src="./images/try-on-images/upscaled-56.png" alt="Gen Image 6" width="48%">
+  <img src="./images/garments/61wsRxYgOIL._AC_SX679_.jpg" alt="Gen Image 7" width="48%">
+  <img src="./images/try-on-images/upscaled-53.png" alt="Gen Image 8" width="48%">
 </div>
 
 By default, model outputs are in 675x675 image size. The resolution of those images were increased to 1024x1024 using upscaler. We are utilizing **FluxControlNetPipeline**, leveraging the "jasperai/Flux.1-dev-Controlnet-Upscaler" and "black-forest-labs/FLUX.1-dev" models to achieve high-quality, detailed image upscaling. This pipeline integrates **ControlNet** with a diffusion-based generative process, providing both precision and flexibility in enhancing image resolution. 
