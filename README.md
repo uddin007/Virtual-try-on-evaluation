@@ -64,7 +64,7 @@ The process can be extended to event specific generated images, for example outd
 </div>
 <div style="display: flex; justify-content: space-around;">
   <img src="./images/generated_images/uncensored_image_hf-24.png" alt="Gen Image 1" width="30%">
-  <img src="./images/garments/B2115-206-F_2f522a3f-9b54-480e-b78e-8d8e8825d1ce_1024x1024@2x.png.webp" alt="Gen Image 2" width="30%">
+  <img src="./images/garments/41OanteZpkL._AC_SY445_.jpg" alt="Gen Image 2" width="30%">
   <img src="./images/try-on-images/upscaled-29.png" alt="Gen Image 3" width="30%">
 </div>
 
