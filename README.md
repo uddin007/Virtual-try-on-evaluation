@@ -55,4 +55,17 @@ The `FluxControlNetModel.from_pretrained` method loads the pre-trained ControlNe
 
 The `FluxControlNetPipeline` integrates the pre-trained base model ("black-forest-labs/FLUX.1-dev") with the ControlNet. The base model employs a **latent diffusion process**, which iteratively denoises a latent space representation of the image. The diffusion model learns the image data distribution, enabling the reconstruction of fine details during upscaling. The ControlNet provides additional constraints to the diffusion process, ensuring that the structural fidelity of the original image is preserved, such as edges, textures, and other critical features.
 
+The process can be extended to event specific generated images, for example outdoor and indoor sports. Although upscaling can cause some changes to the generated model. 
+
+<div style="display: flex; justify-content: space-around;">
+  <img src="./images/generated_images/uncensored_image_hf-31.png" alt="Gen Image 1" width="30%">
+  <img src="./images/garments/B2115-206-F_2f522a3f-9b54-480e-b78e-8d8e8825d1ce_1024x1024@2x.png.webp" alt="Gen Image 2" width="30%">
+  <img src="./images/try-on-images/upscaled-42.png" alt="Gen Image 3" width="30%">
+</div>
+<div style="display: flex; justify-content: space-around;">
+  <img src="./images/generated_images/uncensored_image_hf-24.png" alt="Gen Image 1" width="30%">
+  <img src="./images/garments/B2115-206-F_2f522a3f-9b54-480e-b78e-8d8e8825d1ce_1024x1024@2x.png.webp" alt="Gen Image 2" width="30%">
+  <img src="./images/try-on-images/upscaled-29.png" alt="Gen Image 3" width="30%">
+</div>
+
 **Limitations & Challenges**:  
