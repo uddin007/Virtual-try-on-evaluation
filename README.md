@@ -39,8 +39,8 @@ Overall, IDM-VTON represents a significant leap forward in virtual try-on techno
 We identified, the most efficient way to run this model is by using the Gradio web application available in the repo (https://github.com/yisol/IDM-VTON). A running version with required packages is attached in this repo. The compute used was Google Cloud A100 GPU. This is a NVIDIA Ampere A100, is the cornerstone of the A2 VM family, designed to excel in high-performance computing (HPC) and demanding applications like machine learning. Boasting 40GB of high-performance HBM2 memory and up to 20 times faster compute performance than its predecessor. With 6,912 FP32/INT32 CUDA cores and 3456 FP64 CUDA cores, it offers robust processing power. The A2 VM family includes A2 Ultra, equipped with A100 80GB GPUs and Local SSD disks, and A2 Standard, featuring A100 40GB GPUs, providing users with flexibility to choose the optimal configuration for their specific needs.
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="./images/generated_images/uncensored_image_hf-2.png" alt="Gen Image 1" width="48%">
-  <img src="./images/generated_images/uncensored_image_hf-3.png" alt="Gen Image 2" width="48%">
+  <img src="./images/garments/adidas_WOMEN_Tabela_23_Jersey_Team_Royal_BlueWhite_Front.jpg.webp" alt="Gen Image 1" width="48%">
+  <img src=".images/try-on-images/upscaled-67.png" alt="Gen Image 2" width="48%">
     <img src="./images/generated_images/uncensored_image_hf-4.png" alt="Gen Image 3" width="48%">
   <img src="./images/generated_images/uncensored_image_hf-10.png" alt="Gen Image 4" width="48%">
 </div>
