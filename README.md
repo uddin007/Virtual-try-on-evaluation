@@ -87,9 +87,9 @@ The IDM-VTON (Image-based Virtual Try-On Network) model, while highly effective 
 IDM-VTON typically operates on downscaled image resolutions to optimize computational efficiency and model performance. This downscaling leads to a loss of fine-grained details, particularly in regions where garment patterns, logos, or text are densely packed or intricately designed. The model's warping and texture transfer mechanisms prioritize maintaining the overall structural coherence of the garment. However, fine details such as small fonts, embroidery patterns, or logos may be distorted or blurred during the warping process, especially when adapting the garment to the target body pose or shape. IDM-VTON relies heavily on learning global garment and pose features for accurate alignment and integration. This emphasis on global feature extraction often comes at the expense of localized features, leading to reduced fidelity in regions containing high-frequency details. When parts of the garment overlap with complex body poses or occlusions, the model's ability to retain fine details diminishes further. The reconstructed areas may exhibit artifacts or simplified textures that fail to reflect the original garment details. IDM-VTON's architecture lacks specialized components or loss functions designed explicitly for preserving high-frequency details such as logos or text. Current implementations optimize for general texture consistency rather than targeted high-detail fidelity. Finally, The quality and diversity of the training dataset also play a critical role in the model's performance. If the dataset does not adequately represent garments with high-detail features, the model may fail to generalize well to such scenarios during inference.
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="./images/generated_images/uncensored_image_hf-30.png" alt="Gen Image 1" width="30%">
-  <img src="./images/garments/juventus-2425-home-jersey-is8002-1.jpg" alt="Gen Image 2" width="30%">
-  <img src="./images/try-on-images/upscaled-41.png" alt="Gen Image 3" width="30%">
+  <img src="./images/generated_images/uncensored_image_hf-28.png" alt="Gen Image 1" width="30%">
+  <img src="./images/garments/women1.jpg" alt="Gen Image 2" width="30%">
+  <img src="./images/try-on-images/upscaled-37.png" alt="Gen Image 3" width="30%">
 </div>
 
 ### Recommendations for Improvement
