@@ -96,6 +96,11 @@ IDM-VTON typically operates on downscaled image resolutions to optimize computat
   <img src="./images/garments/s-l1200.jpg" alt="Gen Image 2" width="30%">
   <img src="./images/try-on-images/upscaled-51.png" alt="Gen Image 3" width="30%">
 </div>
+<div style="display: flex; justify-content: space-around;">
+  <img src="./images/generated_images/uncensored_image_hf-21.png" alt="Gen Image 1" width="30%">
+  <img src="./images/garments/6651_B-Red_800x.jpg.webp" alt="Gen Image 2" width="30%">
+  <img src="./images/try-on-images/upscaled-73.png" alt="Gen Image 3" width="30%">
+</div>
 
 ### Recommendations for Improvement
 
