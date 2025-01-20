@@ -102,6 +102,8 @@ IDM-VTON typically operates on downscaled image resolutions to optimize computat
   <img src="./images/try-on-images/upscaled-73.png" alt="Gen Image 3" width="30%">
 </div>
 
+The first image showed garment properly attached to the person however, the logo is not properly transfered from the garment to the image. The 2nd and 3rd ones showed some mismatch around upper/lower garment or hand/glove areas. 
+
 ### Recommendations for Improvement
 
 To address these limitations and enhance the model's ability to capture fine details, the following strategies could be explored:  
